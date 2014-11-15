@@ -51,7 +51,7 @@ module.exports = (robot) ->
       )
       body(msg, rollout).then null, (error) -> msg.send errorMessage(error)
 
-  command /rollout list/i, (msg, rollout) ->
+  command /rollout (list|features)/i, (msg, rollout) ->
     rollout.list().then (features) ->
       if features.length == 0
         msg.send '(no features are configured)'
