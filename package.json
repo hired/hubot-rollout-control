@@ -1,0 +1,43 @@
+{
+  "name": "hubot-rollout-control",
+  "version": "0.0.1",
+  "description": "Send commands to rollout from Hubot; uses rollout_control - github.com/hired/rollout_control",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hired/hubot-rollout-control"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "rollout",
+    "rollout_control",
+    "chat ops"
+  ],
+  "author": "aaronroyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hired/hubot-rollout-control/issues"
+  },
+  "homepage": "https://github.com/hired/hubot-rollout-control",
+  "dependencies": {
+    "rsvp": "^3.0.6",
+    "rollout-control-client": "^0.0.2"
+  },
+  "devDependencies": {
+    "hubot": "^2.9.3",
+    "moment": "^2.5.1",
+    "mocha": "^1.21.0",
+    "nock": "^0.46.0",
+    "chai": "^1.9.2",
+    "sinon-chai": "^2.6.0",
+    "chai-as-promised": "^4.1.1",
+    "sinon": "^1.10.0",
+    "hubot-mock-adapter": "^1.0.0",
+    "coffee-script": "^1.7.0",
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -r test/test_helper.coffee \"$@\" test/**_test.coffee"
+  }
+}
