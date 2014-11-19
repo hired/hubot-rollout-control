@@ -51,6 +51,26 @@ kittens (50%), groups: [ cat_lovers ], users: [ 14, 75 ]<br />
 
 =====
 
+## Commands
+
+`hubot rollout features` - Prints a list of configured features (`list` is an alias)
+
+`hubot rollout get <feature>` - Prints current configuration for feature (`show` is an alias)
+
+`hubot rollout activate <feature>` - activate feature for all users
+
+`hubot rollout deactivate <feature>` - deactivate feature for all users
+
+`hubot rollout activate_percentage <feature>` <percentage> - activate feature for percentage of users
+
+`hubot rollout activate_group <feature> <group>` - activate feature for group
+
+`hubot rollout deactivate_group <feature> <group>` - deactivate feature for group
+
+`hubot rollout activate_user <feature> <user>` - activate feature for user
+
+`hubot rollout deactivate_user <feature> <user>` - deactivate feature for user
+
 ## License
 
 This project is MIT licensed.
