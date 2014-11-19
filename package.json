@@ -1,6 +1,6 @@
 {
   "name": "hubot-rollout-control",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send commands to rollout from Hubot; uses rollout_control - github.com/hired/rollout_control",
   "main": "index.coffee",
   "repository": {

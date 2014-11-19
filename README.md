@@ -12,7 +12,7 @@ Add **hubot-rollout-control** to dependencies in Hubot's `package.json` file:
 "dependencies": {
   "hubot": ">= 2.6.0",
   "hubot-scripts": ">= 2.5.0",
-  "hubot-rollout-control": ">= 0.0.2"
+  "hubot-rollout-control": ">= 0.0.3"
 }
 ```
 
