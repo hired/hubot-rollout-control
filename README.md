@@ -6,14 +6,10 @@ hubot-rollout-control is a [Hubot script](https://hubot.github.com/) that allows
 
 Set up [rollout_control](https://github.com/hired/rollout_control) in your Rails app. See [installation instructions](https://github.com/hired/rollout_control#installation).
 
-Add **hubot-rollout-control** to dependencies in Hubot's `package.json` file:
+Add **hubot-rollout-control** to your Hubot (run the following in your Hubot directory):
 
-```json
-"dependencies": {
-  "hubot": ">= 2.6.0",
-  "hubot-scripts": ">= 2.5.0",
-  "hubot-rollout-control": ">= 0.0.3"
-}
+```
+$ npm install --save hubot-rollout-control
 ```
 
 Add **hubot-rollout-control** to Hubot's `external-scripts.json`:
