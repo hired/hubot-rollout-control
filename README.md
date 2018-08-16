@@ -1,4 +1,9 @@
-#hubot-rollout-control
+# DEPRECATED
+
+This project is deprecated. We've moved its functionality into our main Hubot
+code.
+
+# hubot-rollout-control
 
 hubot-rollout-control is a [Hubot script](https://hubot.github.com/) that allows control of [rollout](https://github.com/FetLife/rollout).
 
